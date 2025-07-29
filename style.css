@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+  background: linear-gradient(135deg, #67D6E5 0%, #5856D6 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  padding: 32px 28px;
+  width: 320px;
+}
+h1 {
+  margin-bottom: 24px;
+  color: #5856D6;
+  text-align: center;
+}
+.search-section {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.search-section input {
+  flex: 1;
+  padding: 12px 10px;
+  border-radius: 8px;
+  border: 1px solid #beb0ff;
+  font-size: 1rem;
+}
+.search-section button {
+  background: #5856D6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0 13px;
+  font-size: 1.1rem;
+  transition: background 0.2s;
+}
+.search-section button:hover { background: #4b48b0; }
+.weather-section {
+  text-align: center;
+  margin-top: 18px;
+}
+.weather-main {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.weather-main img { width: 60px; }
+#temp {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #5856D6;
+}
+#desc {
+  text-transform: capitalize;
+  color: #555;
+  font-size: 1.1rem;
+  margin-top: 3px;
+}
+.weather-details {
+  margin-top: 7px;
+  color: #777;
+  font-size: 0.99rem;
+}
+.no-results {
+  color: #e04d4d;
+  text-align: center;
+  margin-top: 20px;
+}
